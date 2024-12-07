@@ -1,0 +1,3 @@
+This repository contains a simple Python program demonstrating a common error in recursive functions: the lack of a base case for negative input.  The factorial function, when called with a negative input, recursively calls itself indefinitely, exceeding the maximum recursion depth and causing a RecursionError.
+
+The `factorial_bug.py` file demonstrates the error. The `factorial_solution.py` file demonstrates how to handle negative inputs and prevent the error by adding an appropriate base case.
